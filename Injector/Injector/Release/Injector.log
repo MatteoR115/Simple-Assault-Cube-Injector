@@ -1,0 +1,9 @@
+﻿  main.cpp
+E:\GH\sources\Projects\Injector\main.cpp(48,10): error C2664: 'int _wcsicmp(const wchar_t *,const wchar_t *)': cannot convert argument 1 from 'CHAR [260]' to 'const wchar_t *'
+  E:\GH\sources\Projects\Injector\main.cpp(48,28):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_wstring.h(304,37):
+  see declaration of '_wcsicmp'
+  E:\GH\sources\Projects\Injector\main.cpp(48,10):
+  while trying to match the argument list '(CHAR [260], const wchar_t *)'
+  
